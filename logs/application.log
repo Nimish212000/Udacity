@@ -1,0 +1,273 @@
+2024-01-23 12:54:31.445 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on DESKTOP-2TKVSG4 with PID 18744 (started by Nimish in C:\Users\user\Desktop\Udacity proj\Project 4\nd035-c4-Security-and-DevOps-master)
+2024-01-23 12:54:31.453 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2024-01-23 12:54:32.213 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-01-23 12:54:32.312 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87ms. Found 4 repository interfaces.
+2024-01-23 12:54:33.023 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bfe8e95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-23 12:54:33.459 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-01-23 12:54:33.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-23 12:54:33.497 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-23 12:54:33.498 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-01-23 12:54:33.634 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-23 12:54:33.634 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2106 ms
+2024-01-23 12:54:33.971 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-23 12:54:34.151 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-23 12:54:34.220 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-01-23 12:54:34.303 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-01-23 12:54:34.305 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-01-23 12:54:34.500 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-01-23 12:54:34.682 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-23 12:54:35.520 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 12:54:36.294 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-23 12:54:36.401 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ce41f1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6987b74e, org.springframework.security.web.header.HeaderWriterFilter@74a3160d, org.springframework.web.filter.CorsFilter@56820446, org.springframework.security.web.authentication.logout.LogoutFilter@18d396eb, com.example.demo.security.JWTAuthenticationFilter@2259d54f, com.example.demo.security.JWTAuthenticationVerificationFilter@1b82f62a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63846fa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a68cbc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67e21ea2, org.springframework.security.web.session.SessionManagementFilter@498b697, org.springframework.security.web.access.ExceptionTranslationFilter@2a2b3aff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77972964]
+2024-01-23 12:54:36.577 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 12:54:36.805 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-23 12:54:36.877 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 12:54:36.885 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 5.823 seconds (JVM running for 7.033)
+2024-01-23 13:39:19.069 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-23 13:39:19.072 [Thread-3] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 13:39:19.075 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-23 13:39:19.078 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-23 13:39:22.107 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on DESKTOP-2TKVSG4 with PID 4772 (started by Nimish in C:\Users\user\Desktop\Udacity proj\Project 4\nd035-c4-Security-and-DevOps-master)
+2024-01-23 13:39:22.117 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2024-01-23 13:39:23.021 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-01-23 13:39:23.133 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 4 repository interfaces.
+2024-01-23 13:39:24.012 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73665473] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-23 13:39:24.652 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-01-23 13:39:24.689 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-23 13:39:24.712 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-23 13:39:24.713 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-01-23 13:39:24.941 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-23 13:39:24.941 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2740 ms
+2024-01-23 13:39:25.434 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-23 13:39:25.784 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-23 13:39:25.868 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-01-23 13:39:25.984 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-01-23 13:39:25.987 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-01-23 13:39:26.219 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-01-23 13:39:26.396 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-23 13:39:27.356 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 13:39:28.165 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-23 13:39:28.272 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7164e28a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a3383dc, org.springframework.security.web.header.HeaderWriterFilter@2b66bf1c, org.springframework.web.filter.CorsFilter@1b881f1f, org.springframework.security.web.authentication.logout.LogoutFilter@16120270, com.example.demo.security.JWTAuthenticationFilter@51efdb72, com.example.demo.security.JWTAuthenticationVerificationFilter@7bc6b117, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47c15468, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ecc4be7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2de07c57, org.springframework.security.web.session.SessionManagementFilter@56ec6ac0, org.springframework.security.web.access.ExceptionTranslationFilter@7abd75fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@af007d6]
+2024-01-23 13:39:28.455 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 13:39:28.690 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-23 13:39:28.833 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 13:39:28.837 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 7.186 seconds (JVM running for 8.432)
+2024-01-23 14:09:28.275 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m2s222ms929µs900ns).
+2024-01-23 14:18:10.224 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-23 14:18:10.224 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-23 14:18:10.241 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2024-01-23 14:19:15.784 [http-nio-8080-exec-10] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:19:15.838 [http-nio-8080-exec-10] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "rawPassword" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "rawPassword" is null
+	at org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder.encode(BCryptPasswordEncoder.java:80) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.example.demo.controllers.UserController.createUser(UserController.java:51) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at com.example.demo.security.JWTAuthenticationVerificationFilter.doFilterInternal(JWTAuthenticationVerificationFilter.java:31) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.example.demo.security.JWTAuthenticationVerificationFilter.doFilterInternal(JWTAuthenticationVerificationFilter.java:31) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+2024-01-23 14:23:51.524 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:23:51.671 [http-nio-8080-exec-4] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created Nimish
+2024-01-23 14:25:04.181 [http-nio-8080-exec-8] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:25:04.305 [http-nio-8080-exec-8] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created Nimish
+2024-01-23 14:25:13.444 [http-nio-8080-exec-2] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:25:13.549 [http-nio-8080-exec-2] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created Nimish
+2024-01-23 14:30:23.154 [http-nio-8080-exec-3] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:32:08.380 [http-nio-8080-exec-1] INFO  com.example.demo.controllers.CartController - Trying to load username:
+2024-01-23 14:32:08.453 [http-nio-8080-exec-1] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2024-01-23 14:34:09.596 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.demo.model.persistence.Cart> com.example.demo.controllers.CartController.addTocart(com.example.demo.model.requests.ModifyCartRequest)]
+2024-01-23 14:36:43.304 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 6]]
+2024-01-23 14:44:28.842 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:44:28.951 [http-nio-8080-exec-4] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created DEMO
+2024-01-23 14:44:35.096 [http-nio-8080-exec-8] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 14:46:13.348 [http-nio-8080-exec-6] INFO  com.example.demo.controllers.CartController - Trying to load username:
+2024-01-23 14:56:28.300 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-23 14:56:28.304 [Thread-3] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 14:56:28.307 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-23 14:56:28.310 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-23 14:56:32.845 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on DESKTOP-2TKVSG4 with PID 18320 (started by Nimish in C:\Users\user\Desktop\Udacity proj\Project 4\nd035-c4-Security-and-DevOps-master)
+2024-01-23 14:56:32.854 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2024-01-23 14:56:33.640 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-01-23 14:56:33.725 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 4 repository interfaces.
+2024-01-23 14:56:34.363 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$623fab18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-23 14:56:34.780 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-01-23 14:56:34.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-23 14:56:34.828 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-23 14:56:34.829 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-01-23 14:56:34.975 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-23 14:56:34.975 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2055 ms
+2024-01-23 14:56:35.256 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-23 14:56:35.444 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-23 14:56:35.523 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-01-23 14:56:35.612 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-01-23 14:56:35.614 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-01-23 14:56:35.816 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-01-23 14:56:35.974 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-23 14:56:36.805 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 14:56:37.537 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-23 14:56:37.643 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40416321, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f69b0ba, org.springframework.security.web.header.HeaderWriterFilter@1b96d447, org.springframework.web.filter.CorsFilter@3ab70d34, org.springframework.security.web.authentication.logout.LogoutFilter@54b35809, com.example.demo.security.JWTAuthenticationFilter@289cf7db, com.example.demo.security.JWTAuthenticationVerificationFilter@7c523bdd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64eb14da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25a2c4dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3741071d, org.springframework.security.web.session.SessionManagementFilter@3a47bf0e, org.springframework.security.web.access.ExceptionTranslationFilter@204a02a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2259d54f]
+2024-01-23 14:56:37.821 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 14:56:38.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-23 14:56:38.130 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 14:56:38.139 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 5.66 seconds (JVM running for 6.742)
+2024-01-23 15:01:22.686 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-23 15:01:22.686 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-23 15:01:22.698 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2024-01-23 15:01:22.919 [http-nio-8080-exec-1] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 15:02:00.150 [http-nio-8080-exec-5] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 15:02:00.283 [http-nio-8080-exec-5] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created Nimish
+2024-01-23 15:05:24.803 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.CartController - Trying to load username:
+2024-01-23 15:05:24.828 [http-nio-8080-exec-4] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2024-01-23 15:06:24.924 [http-nio-8080-exec-9] INFO  com.example.demo.controllers.CartController - item added to cart
+2024-01-23 15:09:07.230 [http-nio-8080-exec-2] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:11:21.272 [http-nio-8080-exec-3] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:11:49.028 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:11:49.029 [http-nio-8080-exec-4] ERROR com.example.demo.controllers.OrderController - Cart empty
+2024-01-23 15:16:00.073 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-23 15:16:00.076 [Thread-3] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 15:16:00.078 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-23 15:16:00.081 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-23 15:16:04.972 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on DESKTOP-2TKVSG4 with PID 6844 (started by Nimish in C:\Users\user\Desktop\Udacity proj\Project 4\nd035-c4-Security-and-DevOps-master)
+2024-01-23 15:16:04.984 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2024-01-23 15:16:06.061 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-01-23 15:16:06.169 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93ms. Found 4 repository interfaces.
+2024-01-23 15:16:06.839 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3a93dc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-01-23 15:16:07.332 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-01-23 15:16:07.357 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-23 15:16:07.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-23 15:16:07.374 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-01-23 15:16:07.530 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-23 15:16:07.531 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2314 ms
+2024-01-23 15:16:07.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-23 15:16:08.053 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-23 15:16:08.138 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-01-23 15:16:08.221 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2024-01-23 15:16:08.223 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2024-01-23 15:16:08.415 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-01-23 15:16:08.586 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-23 15:16:09.680 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-23 15:16:10.555 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-23 15:16:10.666 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6b746b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fda8dae, org.springframework.security.web.header.HeaderWriterFilter@57ac2910, org.springframework.web.filter.CorsFilter@55d8f6bb, org.springframework.security.web.authentication.logout.LogoutFilter@2a79da3a, com.example.demo.security.JWTAuthenticationFilter@56b48163, com.example.demo.security.JWTAuthenticationVerificationFilter@eb6ccbc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7135e8cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ee5c08d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eae392d, org.springframework.security.web.session.SessionManagementFilter@e296794, org.springframework.security.web.access.ExceptionTranslationFilter@6f651ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2de07c57]
+2024-01-23 15:16:10.862 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 15:16:11.097 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-23 15:16:11.203 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 15:16:11.207 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 6.685 seconds (JVM running for 7.883)
+2024-01-23 15:16:58.790 [http-nio-8080-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-23 15:16:58.790 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-01-23 15:16:58.798 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-01-23 15:16:58.897 [http-nio-8080-exec-5] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 15:17:09.761 [http-nio-8080-exec-2] INFO  com.example.demo.controllers.UserController - creating new user
+2024-01-23 15:17:09.861 [http-nio-8080-exec-2] ERROR com.example.demo.controllers.UserController - Error with password. User cannot be created Nimish
+2024-01-23 15:17:21.288 [http-nio-8080-exec-3] INFO  com.example.demo.controllers.CartController - Trying to load username:
+2024-01-23 15:17:21.308 [http-nio-8080-exec-3] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2024-01-23 15:18:29.943 [http-nio-8080-exec-6] WARN  com.example.demo.controllers.CartController - User not found
+2024-01-23 15:18:53.280 [http-nio-8080-exec-10] INFO  com.example.demo.controllers.CartController - Item added to cart Successfully
+2024-01-23 15:19:10.404 [http-nio-8080-exec-1] WARN  com.example.demo.controllers.CartController - Item not found in cart
+2024-01-23 15:19:44.587 [http-nio-8080-exec-2] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:19:44.588 [http-nio-8080-exec-2] INFO  com.example.demo.controllers.OrderController - No user found
+2024-01-23 15:20:24.839 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:20:24.840 [http-nio-8080-exec-4] INFO  com.example.demo.controllers.OrderController - No user found
+2024-01-23 15:20:33.365 [http-nio-8080-exec-3] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:20:33.378 [http-nio-8080-exec-3] INFO  com.example.demo.controllers.OrderController - Order placed successfully
+2024-01-23 15:20:49.155 [http-nio-8080-exec-8] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:20:49.160 [http-nio-8080-exec-8] INFO  com.example.demo.controllers.OrderController - Order placed successfully
+2024-01-23 15:21:32.184 [http-nio-8080-exec-7] INFO  com.example.demo.controllers.OrderController - submit the order
+2024-01-23 15:21:32.192 [http-nio-8080-exec-7] INFO  com.example.demo.controllers.OrderController - Order placed successfully
